@@ -1,6 +1,5 @@
 module.exports = function check(str, bracketsConfig) {
-  let arr = bracketsConfig.flat(Infinity);
-  console.log(arr);
+  let arr = bracketsConfig.flat(Infinity);  
   let set = new Set();
   for (let i = 0; i < arr.length; i += 2) {
     let a = arr[i] + arr[i + 1];
